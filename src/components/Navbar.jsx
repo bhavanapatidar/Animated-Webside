@@ -15,6 +15,7 @@ const audioElementRef = useRef(null);
 const{currentScrollY} = useWindowScroll();
 use
 
+
 const toggleAudioIndicator = () => {
     setIsAudioPlaying((prev) => !prev);
     setIsIndicatorActive((prev) => !prev);
